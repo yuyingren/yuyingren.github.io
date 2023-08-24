@@ -56,6 +56,11 @@ defaults:
     values:
       layout: post # Default layout
 
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "renyuying4@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/yuyingren"}
+
+
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
 title: "Yuying Ren" # Site name or title
