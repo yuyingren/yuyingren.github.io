@@ -35,26 +35,26 @@ excerpt_separator: <!-- more --> # Marks end of excerpt in posts
 timezone: America/New_York # Timezone for blog posts and alike
 
 # 5. Collections
-collections:
-  posts:
-    title: Blog # Needed for Siteleaf
-    output: false
-    description: "Hello [Yuying](about)" # The post list page content
+# collections:
+#   posts:
+title: Blog # Needed for Siteleaf
+    # output: false
+description: "Hello [Yuying](about)" # The post list page content
 
 # 6. Jekyll collections settings
-defaults:
-  -
-    scope:
-      path: ""
-      type: pages
-    values:
-      layout: page # Default layout
-  -
-    scope:
-      path: ""
-      type: posts
-    values:
-      layout: post # Default layout
+# defaults:
+  # -
+  #   scope:
+  #     path: ""
+  #     type: pages
+  #   values:
+  #     layout: page # Default layout
+  # -
+  #   scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: post # Default layout
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "renyuying4@gmail.com"}
