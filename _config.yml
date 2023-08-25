@@ -38,7 +38,7 @@ timezone: America/New_York # Timezone for blog posts and alike
 collections:
   posts:
     title: Blog # Needed for Siteleaf
-    output: true
+    output: false
     description: "Hello [Yuying](about)" # The post list page content
 
 # 6. Jekyll collections settings
